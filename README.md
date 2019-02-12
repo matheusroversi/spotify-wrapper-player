@@ -1,5 +1,7 @@
 # Spotify Wrapper Player
 
+[![Build Status](https://travis-ci.com/matheusroversi/spotify-wrapper-player.svg?branch=master)](https://travis-ci.com/matheusroversi/spotify-wrapper-player) 
+
 ![Spotify Wrapper Player Screenshot](example/screenshot.png)
 
 > This application uses [spotify-wrapper](https://github.com/matheusroversi/spotify-wrapper) library to get informations and songs from Spotify. 
