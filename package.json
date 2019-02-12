@@ -1,6 +1,6 @@
 {
   "name": "spotify-wrapper-player",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register",
