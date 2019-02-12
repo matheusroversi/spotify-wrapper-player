@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Player</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <aside class="aside">
+        <div class="aside-container">
+            <header class="aside-header">
+                <a class="aside-link" href="https://github.com/matheusroversi/spotify-wrapper-player">
+                    <i class="fab fa-spotify"></i>&nbsp;Spotify
+                </a>
+            </header>
+
+
+            <form id="search-form" class="form-wrapper">
+                    <input id="search-input" class="form-input" type="text" name="query" placeholder="Type an artist/album" autocomplete="off">
+                    <i class="fas fa-search form-icon"></i>
+            </form>
+        </div>
+        <div id="album-list" class="list"></div>
+    </aside>
+
+    <main class="container">
+        <div class="container-inner">
+
+            <div id="album-info" class="album-info"></div>
+
+            <div id="album-tracks" class="album-musics"></div>
+
+        </div>
+    </main>
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>

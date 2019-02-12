@@ -1,0 +1,7 @@
+import SpotifyWrapper from 'spotify-wrapper-ma';
+
+const spotify = new SpotifyWrapper({
+    token: 'BQCEYEt6cMQ-WLIai3O9NBcSDjuXJ2U4pjG9HRluELwlIBjtZ09NxZJ5g7mkQ9SYvDe618wW4MlMEKIS74i-FbXzL5l5Y801evCthwgbCyw57EjGrngkQqCbB0jUySzsc4zQDikpzhODi_9jthzIPXcR2P-R1z52BAQzg05QJGNQnBohjtugdNswSp-XdsSjTYqL-AL3UpRo0qKPOzytvQiZ80_AJMKcKfMFPu4QyeKyvq4CRHiygFsLnG4ZDh7DkStHBGKvotJUI_T_Wi74'
+});
+
+export default spotify;

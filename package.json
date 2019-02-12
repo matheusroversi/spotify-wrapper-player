@@ -1,0 +1,33 @@
+{
+  "name": "spotify-wrapper-player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register",
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm run build -- --watch",
+    "start": "./node_modules/.bin/webpack-dev-server  --inline --open --port 3000",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register --watch"
+  },
+  "keywords": [],
+  "author": "Matheus Roversi <matheusroversi@gmail.com> (http://matheusroversi.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "spotify-wrapper-ma": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.2.0",
+    "chai-html": "^1.2.2",
+    "jsdom": "^11.0.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "description": ""
+}
