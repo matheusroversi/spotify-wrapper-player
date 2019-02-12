@@ -10,7 +10,7 @@
     "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register --watch",
     "test:coverage": "./node_modules/.bin/nyc npm test",
     "test:coverage:report": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
-    "test:coverall": "npm run test:coverage && npm run test:coverage:report"
+    "test:coveralls": "npm run test:coverage && npm run test:coverage:report"
   },
   "repository": {
     "type": "git",
