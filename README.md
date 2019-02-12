@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Spotify Wrapper Player
 
 ![Spotify Wrapper Player Screenshot](example/screenshot.png)
