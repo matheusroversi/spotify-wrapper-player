@@ -7,7 +7,10 @@
     "build": "./node_modules/.bin/webpack --colors --progress",
     "watch": "npm run build -- --watch",
     "start": "./node_modules/.bin/webpack-dev-server  --inline --open --port 3000",
-    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register --watch"
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register --watch",
+    "test:coverage": "./node_modules/.bin/nyc npm test",
+    "test:coverage:report": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
+    "test:coverall": "npm run test:coverage && npm run test:coverage:report"
   },
   "repository": {
     "type": "git",
@@ -31,6 +34,7 @@
     "babel-loader": "^8.0.5",
     "chai": "^4.2.0",
     "chai-html": "^1.2.2",
+    "coveralls": "^3.0.2",
     "jsdom": "^11.0.0",
     "jsdom-global": "^3.0.2",
     "mocha": "^5.2.0",
