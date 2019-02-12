@@ -1,6 +1,6 @@
 # Spotify Wrapper Player
 
-[![Build Status](https://travis-ci.com/matheusroversi/spotify-wrapper-player.svg?branch=master)](https://travis-ci.com/matheusroversi/spotify-wrapper-player) 
+[![Build Status](https://travis-ci.com/matheusroversi/spotify-wrapper-player.svg?branch=master)](https://travis-ci.com/matheusroversi/spotify-wrapper-player) [![Coverage Status](https://coveralls.io/repos/github/matheusroversi/spotify-wrapper-player/badge.svg?branch=master)](https://coveralls.io/github/matheusroversi/spotify-wrapper-player?branch=master)
 
 ![Spotify Wrapper Player Screenshot](example/screenshot.png)
 
