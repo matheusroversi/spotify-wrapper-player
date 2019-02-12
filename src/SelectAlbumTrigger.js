@@ -17,4 +17,5 @@ export default function selectAlbumTrigger() {
     const target = e.target;
     makeRequest(target.getAttribute('data-album-id'));
   });
+  
 }
